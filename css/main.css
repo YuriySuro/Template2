@@ -1,0 +1,270 @@
+
+
+body {
+	font-family: "RalewayRegular", sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+}
+/*padding0*/
+.p0 {
+	padding: 0;
+}
+/*buttons*/
+
+.mybtn {
+	background-color: #e84545;
+	border:none;
+	border-radius: 5px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.btnmd {
+	padding: 10px 30px;
+}
+
+.btnlg {
+	padding: 15px 50px;
+}
+
+.soc_btn {
+	border: 1px solid #c6cacc;
+	width: 30px;
+	height: 30px;
+}
+
+.greybtn {
+	color: #c6cacc;
+	background-color: transparent;
+}
+
+
+.whitebtn {
+	color: #fff;
+	background-color:transparent;
+}
+
+.callbtn {
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	width: 40px;
+	height: 40px;
+	border: none;
+	border-radius: 50%;
+	color: #fff;
+	background-color: #e84545;
+	z-index: 999;
+}
+
+/*header*/
+
+header {
+	height: 680px;
+	background-image: url(../img/banner.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+nav {
+	height: 94px;
+	line-height: 94px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999;
+}
+
+.menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu li {
+	display: inline-block;
+	padding: 0 30px;
+}
+
+.menu li a {
+	color: #fff;
+	text-transform: uppercase;
+	font-family: "RalewayBold", sans-serif; 
+}
+
+.menu li a:hover, .menu li a:focus {
+	text-decoration: none;
+	color: #e1e1e1;
+}
+
+.adapline {
+	height: 1px;
+	background-color: #e1e1e1;
+}
+
+.logo {
+	padding-top: 35px;
+}
+
+.titleblock {
+	color: #fff;
+	text-align: center;
+	margin-top: 200px;
+}
+
+.titleblock h1 {
+	text-transform: uppercase;
+	font-size: 50px;
+	font-family: "RalewayBold", sans-serif;
+	margin-bottom: 30px;
+}
+
+.titleblock p {
+	font-size: 18px;
+	margin-bottom: 50px;
+}
+
+/*parameters section*/
+
+.paramss {
+	padding: 95px 0;
+}
+
+.paramblock {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.paramblock i {
+	font-size: 70px;
+	color: #e84545;
+}
+
+.paramblock h3 {
+	font-family: "RalewayBold", sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+
+}
+
+.paramblock p {
+	font-size: 14px;
+}
+
+/*work block*/
+
+.workblock {
+	position: relative;
+}
+
+.imagewrap {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(232,69,69,0.7);
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;s
+	display: flex;
+	opacity: 0;
+}
+
+.workblock:hover .imagewrap {
+	opacity: 1;
+}
+
+.workdescr {
+	color: #fff;
+	text-align: center;
+	margin: auto;
+}
+
+/*team section*/
+.teams {
+	padding: 95px 0;
+	color: #6c7279;
+}
+
+.teamitem h4 {
+	font-family: "RalewayBold", sans-serif;
+	color: #000;
+}
+
+.teamitem span {
+	text-transform: uppercase;
+	color: #e84545;
+	font-size: 16px;
+}
+
+.teamitem p {
+	font-size: 14px;
+	padding: 10px 0;
+}
+
+
+/*Download block*/
+.download {
+	padding: 90px 0;
+}
+
+.downloadblock {
+	text-align: center;
+}
+
+.downloadblock h5 {
+	font-size: 24px;
+}
+
+.download p {
+	font-family: "RalewayBold", sans-serif;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+/*footer block */
+.mainfooter {
+	padding: 70px 0;
+	background-color: #3a3e64;
+}
+
+.footeritem {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.footeritem h5 {
+	font-size: 16px;
+	font-family: "RalewayBold", sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.footeritem p {
+	font-size: 14px;
+	color: #9d9fb2; 
+}
+
+/*copyblock*/
+.copyblock {
+	background-color: #313454;
+	text-align: center;
+	padding: 30px 0;
+}
+
+.copytxt {
+	color: #9d9fb2;
+}
+
+/*form block*/
+#dlform {
+	width: 70%;
+	margin: 0 auto;
+}
+
+#dlform input {
+	margin-bottom: 10px;
+}

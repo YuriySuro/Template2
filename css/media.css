@@ -1,0 +1,231 @@
+/*==========  Desktop Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.teamitem{
+		margin-bottom: 30px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+
+	
+	.animated {
+		/* css-transition */
+		-webkit-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-o-transition-property: none !important;
+		transition-property: none !important;
+		/* css-transform*/
+		-webkit-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-o-transform: none !important;
+		transform: none !important;
+		/*css-animations*/
+		-webkit-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-o-transform: none !important;
+		animation: none !important;
+	}
+	
+	nav {
+		height: 60px;
+		line-height: 60px;
+		background-color: #2a2e48;
+		position: fixed;
+	}
+	.adapline {
+		display: none;
+	}
+	.logo {
+		padding-top: 15px;
+	}
+	.menubtn {
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		background-color: #E84545;
+		color: #fff;
+	}
+	.menubtn span{
+		top: -16px;
+	}
+	#adapmenu {
+		background-color: #2a2e48;
+		padding: 20px 0;
+	}
+	.menu li {
+		display: block;
+		text-align: center;
+	}
+	.menu li a {
+		display: block;
+	}
+	.menu li a:hover {
+		background-color: #fff;
+		color: #000;	
+	}
+	.titleblock {
+		margin-top: 130px;
+	}
+	.teamitem{
+		margin-bottom: 30px;
+	}
+	
+	.download {
+		padding: 20px 0 50px 0;
+	}
+
+	.teams {
+		padding: 60px 0 40px 0;
+	}
+
+	#dlform {
+		width: 100%;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	
+	nav {
+		height: 60px;
+		line-height: 60px;
+		background-color: #2a2e48;
+		position: fixed;
+
+	}
+	.adapline {
+		display: none;
+	}
+	.logo {
+		padding-top: 15px;
+	}
+	.menubtn {
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		background-color: #e84545;
+		color: #fff;
+	}
+	.menubtn span{
+		top: -16px;
+	}
+	#adapmenu {
+		background-color: #2a2e48;
+		padding: 20px 0;
+	}
+	.menu li {
+		display: block;
+		text-align: center;
+	}
+	.menu li a {
+		display: block;
+	}
+	.menu li a:hover {
+		background-color: #fff;
+		color: #000;	
+	}
+	.titleblock {
+		margin-top: 130px;
+	}
+	.titleblock h1{
+		font-size: 30px;
+	}
+	.titleblock p {
+		font-size: 14px;
+	}
+
+	.teamitem{
+		margin-bottom: 30px;
+	}
+
+	.download {
+		padding: 20px 0 50px 0;
+	}
+
+	.teams {
+		padding: 60px 0 40px 0;
+	}
+
+	#dlform {
+		width: 100%;
+	}	
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	
+	nav {
+		height: 60px;
+		line-height: 60px;
+		background-color: #2a2e48;
+		position: fixed;
+	}
+	.adapline {
+		display: none;
+	}
+	.logo {
+		padding-top: 15px;
+	}
+	.menubtn {
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		background-color: #E84545;
+		color: #fff;
+	}
+	.menubtn span{
+		top: -16px;
+	}
+	#adapmenu {
+		background-color: #2a2e48;
+		padding: 20px 0;
+	}
+	.menu li {
+		display: block;
+		text-align: center;
+	}
+	.menu li a {
+		display: block;
+	}
+	.menu li a:hover {
+		background-color: #fff;
+		color: #000;	
+	}
+	.titleblock {
+		margin-top: 130px;
+	}
+	.titleblock h1{
+		font-size: 30px;
+	}
+	.titleblock p {
+		font-size: 14px;
+	}
+
+	.teamitem{
+		margin-bottom: 30px;
+	}
+
+	.download {
+		padding: 20px 0 50px 0;
+	}
+
+	.teams {
+		padding: 60px 0 40px 0;
+	}
+
+	#dlform {
+		width: 100%;
+	}
+}
